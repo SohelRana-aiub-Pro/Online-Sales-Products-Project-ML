@@ -1,0 +1,28 @@
+#Import os
+pandas
+numpy
+faker
+matplotlib
+seaborn
+scikit-learn
+joblib
+
+sqlalchemy
+fastapi
+uvicorn
+streamlit
+plotly
+
+#How to run of this Project?
+#pip install -r requirements.txt
+#python src/generate_data.py
+#python src/analysis.py
+#python src/ml_models.py
+
+#python -m uvicorn app.fastapi_app:app --reload
+#pip install fastapi uvicorn
+#for KPIs;
+#python -m src.run_kpi
+#python -m streamlit run app/kpi_app.py
+#for revune;
+#python -m streamlit run app/streamlit_app.py
